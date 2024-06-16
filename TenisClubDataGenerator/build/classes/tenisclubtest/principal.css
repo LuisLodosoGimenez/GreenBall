@@ -1,0 +1,54 @@
+/*cuadraditos que estan en la parte de arriba sin seleccionar*/
+.tab-pane > .tab-header-area > .headers-region > .tab:top {
+    -fx-border-color:  #AEC8B0;
+    -fx-padding: 2.1em 2.1em 2em 2.1em;
+    -fx-border-radius: 0 0 0 0;
+    -fx-background-color:     #6DAD6D;
+    -fx-pref-height: 40px;  
+    -fx-background-insets: 0;
+    -fx-font-size: 15px;
+    -fx-user-select: none;
+    
+}
+/*cuadraditos que estan en la parte de arriba selecionados*/
+.tab-pane > .tab-header-area > .headers-region > .tab:selected:top {
+    -fx-border-color:  #FFFFFF;
+    -fx-border-width: 0 0 2,5 0;   
+    -fx-border-radius: 0 0 0 0;
+    -fx-background-color:  #6DAD6D;
+    -fx-pref-height: 40px;  
+    -fx-background-insets: 0;
+}
+
+/*letra que esta dentro de los cuadraditos cuando está selecionado*/
+.tab-pane > .tab-header-area > .headers-region > .tab:selected > .tab-container > .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+/*letra que esta dentro de los cuadraditos cuando está sin selecionar*/
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+/*rectangulo de arriba donde se colocan los cuadraditos*/
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color:   #6DAD6D;
+    -fx-border-color: #216046;
+    -fx-border-width: 0 0 0 0;
+    -fx-background-insets: 0;
+    -fx-pref-height: 45px;  
+    -fx-align-items: CENTER;
+}
+.table-row-cell:selected {
+    -fx-background-color: #AEC8B0;
+}
+/*eliminar border del table que aparece cuando el mismo tiene el foco*/
+.table-pane,.tab-pane:focused{
+    -fx-background-color: transparent,-fx-box-border,-fx-control-inner-background;
+    -fx-background-insets: -1.4, 0, 1;
+    -fx-background-radius: 1.4, 0, 0;
+  }

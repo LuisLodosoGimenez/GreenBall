@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 may. 2023, 16:18:31
+    Author     : LLODGIM
+*/
+.table-view > .column-header-background > .nested-column-header > .table-column{
+    -fx-background-color :#00cc66;
+    
+}
+
+.table-view > .column-header-background > .filler{
+    -fx-background-color: #ccffcc;
+}
+
+
+.table-row-cell:odd {
+    -fx-background-color: #ccffcc;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #99ff99;
+}
+.table-view:row-selection .table-row-cell:filled:hover { 
+    -fx-background-color: #6DAD6D;
+}
+.table-cell {
+    -fx-text-fill: BLACK; /* Cambia el color a tu elección */
+}
+.table-row-cell:selected {
+    -fx-background-color: #6DAD6D; /* Cambia el color a tu elección */
+}
+

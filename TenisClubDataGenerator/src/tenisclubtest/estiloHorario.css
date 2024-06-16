@@ -1,0 +1,22 @@
+
+.table-view > .column-header-background > .nested-column-header > .table-column{
+    -fx-background-color :#ccffcc;
+    
+}
+
+.table-view > .column-header-background > .filler{
+    -fx-background-color: #ccffcc;
+}
+
+/*
+.table-view > .column-header-background > .filler{
+    -fx-background-color: #ff6666;
+}*/
+
+.list-cell-NR{
+    -fx-background-color:#ff6666;
+}
+
+#list-cell-R{
+    -fx-background-color:#99ff99;
+}
